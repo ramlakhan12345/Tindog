@@ -1,0 +1,222 @@
+body {
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Black";
+}
+
+.color-background {
+  color: white;
+  background-color: #ff4c68;
+}
+
+.white-background {
+    background-color: #ffffff;
+}
+
+.heading2 {
+  font-size: 2.5rem;
+}
+
+.heading1 {
+
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+#title .container-fluid {
+  padding:3% 15% 7%;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+
+.row {
+  padding-top: 50px;
+}
+
+.text {
+  text-align: left;
+  padding-right: 100px;
+}
+
+.Download-btn {
+  margin-top :2rem;
+  margin-right: 20px;
+}
+
+.nav-link {
+  margin: 0 20px;
+  font-size: 1.2rem;
+
+}
+
+.iphone-img {
+  width: 19%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+  z-index: 1;
+
+}
+
+.icons {
+  /* font-size: 3.5rem; */
+  color: #ef8172;
+}
+.icons:hover {
+  color: #ff4c68;
+}
+
+.heading3 {
+  margin-top: 20px;
+  font-size: 1.5rem;
+
+  font-weight: bold;
+
+}
+
+.feature-col {
+  padding:0 5rem;
+}
+
+/* Testiomonisals */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 50px 20px;
+}
+
+.testimonial-text {
+  padding: 0 200px;
+  line-height: 2;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.press-img {
+  width: 15%;
+  margin: 0 1.5rem;
+}
+
+/* Pricing */
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+/* Ansh images */
+.ansh-section {
+  background-color: #ef8172;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.ansh-h1{
+  font-size: 4rem;
+  color: white;
+}
+.ansh-h3 {
+  font-size: 2rem;
+  color: black;
+}
+
+.ansh-p {
+  font-size: 1rem;
+  color: white;
+}
+.ansh-img1 {
+  width: 25%;
+  float: left;   /* It will come in left side of Screen */
+  margin-right: 50px;
+}
+
+.ansh-img2 {
+  width: 25%;
+  float: right;
+  margin-left: 50px;
+
+}
+.ansh1 {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.ansh2 {
+  width: 50%;
+  margin: 150px auto 100px auto;
+  text-align: left;
+}
+
+/* Call to action section */
+
+.cta-heading3 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  padding: 50px 100px;
+}
+
+/* Footer Section */
+
+.footer-icons {
+  margin: 20px 10px;
+}
+
+
+/* Media Query */
+@media (max-width:1000px){
+  .dogs {
+    text-align: center;
+  }
+
+  .text {
+    text-align: center;
+    padding: 20px 50px;
+  }
+  .iphone-img {
+    width: 60%;
+    position: static;
+    transform: rotate(0);
+  }
+
+  .testimonial-text {
+    padding: 0 50px;
+    line-height: 1.5;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .press-img {
+    width: 15%;
+    margin: 0 1rem;
+  }
+
+  .navbar-nav {
+    text-align: right;
+  }
+
+}
